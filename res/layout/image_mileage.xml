@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff000000" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:id="@+id/txtData_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="102dp"
+        android:layout_x="410dp"
+        android:layout_y="210dp"
+        android:text="No Data"
+        android:textColor="@android:color/white"
+        android:textSize = "24sp" />
+    
+    <TextView
+        android:id="@+id/txtData_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="32dp"
+        android:layout_x="252dp"
+        android:layout_y="305dp"
+        android:text="No Data"
+        android:textColor="@android:color/white"
+        android:textSize = "24sp" />
+    
+    <TextView
+        android:id="@+id/txtData_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_x="95dp"
+        android:layout_y="400dp"
+        android:text="No Data"
+        android:textColor="@android:color/white"
+        android:textSize = "24sp" />   
+
+    <ImageView
+        android:id="@+id/imageMileage_1"
+        android:layout_width="160dp"
+        android:layout_height="108dp"
+        android:layout_x="320dp"
+        android:layout_y="40dp"
+        android:src="@drawable/sorry" />
+    
+    <ImageView
+        android:id="@+id/imageMileage_2"
+        android:layout_width="160dp"
+        android:layout_height="108dp"
+        android:layout_x="160dp"
+        android:layout_y="130dp"
+        android:src="@drawable/sorry" />
+
+    <ImageView
+        android:id="@+id/imageMileage_3"
+        android:layout_width="160dp"
+        android:layout_height="108dp"
+        android:layout_x="0dp"
+        android:layout_y="220dp"
+        android:src="@drawable/sorry" />
+    
+    
+
+</AbsoluteLayout>
